@@ -1,5 +1,20 @@
 # ReqSAP Intelligence — Especificação Técnica Base (Web + Mobile)
 
+## Execução com 1 clique (One-click run)
+
+### Linux/macOS
+- Dê duplo clique em `start.sh` (ou rode `./start.sh`).
+- O script instala dependências, inicia o servidor e abre o navegador automaticamente.
+
+### Windows
+- Dê duplo clique em `start.bat`.
+- O script instala dependências, inicia o servidor e abre o navegador automaticamente.
+
+### Alternativa por comando único
+- `npm start`
+
+---
+
 Este documento define a base de produto, arquitetura e engenharia para iniciar imediatamente o desenvolvimento de um sistema corporativo inteligente de leitura documental, conciliação fiscal/financeira e auditoria.
 
 ## 1) Arquitetura detalhada do sistema
