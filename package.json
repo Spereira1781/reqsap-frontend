@@ -1,8 +1,9 @@
-
 {
   "name": "reqsap-frontend",
   "version": "1.0.0",
   "scripts": {
+    "start": "npm run setup && vite --host 0.0.0.0 --open",
+    "setup": "npm install",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
